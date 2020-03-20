@@ -27,11 +27,7 @@ public class ChangeNumbers {
         char fourth = deff.charAt(3);
         char fifth = deff.charAt(4);
         char sixth = deff.charAt(5);
-        /*String replace = deff.substring(first, sixth);
-        String replace1 = deff.substring(sixth, first);
-        String replace2 = deff.substring(fifth, second);
-        String replace3 = (second, fifth);*/
-        String replace = String.join("",String.valueOf(sixth),String.valueOf(fifth),String.valueOf(third),String.valueOf(fourth),String.valueOf(second),String.valueOf(first));
+        String replace = String.join("", String.valueOf(sixth), String.valueOf(fifth), String.valueOf(third), String.valueOf(fourth), String.valueOf(second), String.valueOf(first));
         return replace;
     }
 
